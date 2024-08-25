@@ -10,7 +10,7 @@ export default defineConfig({
   publicDir: './public',
   server: {
     // Uncomment this if you're running on a local network for testing:
-    // host: true,
+    host: true,
   },
 });
 
