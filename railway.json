@@ -1,0 +1,12 @@
+{
+  "build": {
+    "builder": "Docker",
+    "image": "node:18-alpine",
+    "args": {
+      "NODE_ENV": "production"
+    }
+  },
+  "start": {
+    "command": "pnpm run preview -- --host 0.0.0.0 --port 4173"
+  }
+}
